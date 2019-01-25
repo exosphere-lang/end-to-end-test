@@ -1,5 +1,0 @@
-language: haskell
-ghc:
-  - "8.4"
-script:
-    - bash ci.sh
