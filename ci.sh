@@ -1,9 +1,9 @@
-git clone git@github.com:exosphere-lang/examples.git > /dev/null 2>&1
-git clone git@github.com:exosphere-lang/compiler.git > /dev/null 2>&1
+git clone https://github.com/exosphere-lang/examples.git
+git clone https://github.com/exosphere-lang/compiler.git
 
 cd compiler
 
-stack build --copy-bins > /dev/null 2>&1
+stack build --copy-bins
 
 cd ..
 
